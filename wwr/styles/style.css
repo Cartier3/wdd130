@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+#background{
+    height: 725px;
+}
+
 nav a{
     text-align: center;
 }
