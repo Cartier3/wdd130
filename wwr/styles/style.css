@@ -2,3 +2,19 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
+nav a{
+    text-align: center;
+}
+
+#hero-msg{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
