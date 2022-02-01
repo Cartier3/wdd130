@@ -14,4 +14,10 @@ a{
     font-size: 1.5em;
     background-color: #ccc;
     margin: 10px;
+    border: 2px solid black;
+}
+
+a:hover{
+    color:white;
+    background-color: darkgrey;
 }
