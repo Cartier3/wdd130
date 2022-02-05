@@ -87,8 +87,8 @@ nav a:hover {
 .book, .join {
     background-color:#168AAD;
     font-family:"Cormorant Garamond, Questrial";
-    font-size: 18px;
     text-decoration: none;
+    font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
