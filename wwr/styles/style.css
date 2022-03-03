@@ -256,6 +256,14 @@ footer .social img {
     grid-row: 1/2;
 }
 
+h1 {
+   color:white; 
+   font-family:"Lobster";
+   font-size: 1.5em;
+   margin: 0;
+    
+}
+
 .riversndates{
     display: grid;
     grid-template-columns: 1fr 1fr;
