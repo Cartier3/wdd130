@@ -250,7 +250,35 @@ footer .social img {
 
 /*Rivers and Dates CSS*/
 
+#main-title {
+    background-color:#168AAD; 
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
 
+.riversndates{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    padding: 40px;
+    align-items: center;
+}
+
+.grand_canyon1_img{
+    width: 100%;
+}
+
+.grand_canyon2_img{
+    width: 100%;
+}
+
+.salmon_river_img{
+    width: 100%;
+}
+
+.desolation_river_img{
+    width: 100%;
+}
 
 
 
