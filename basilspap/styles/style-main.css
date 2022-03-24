@@ -135,5 +135,41 @@ footer .social img{
     height: 50px;
 }
 
+/* CSS for Menu Page*/
+
+#logo_hero {
+    margin: 0 auto;
+    width: 500px;
+    display: block;
+}
+
+.pizza_img_2 {
+    margin: 0 auto;
+    width: 500px;
+    height: 375px;
+    display: block;
+}
+
+.pasta_img_2{
+    margin: 0 auto;
+    width: 500px;
+    height: 375px;
+    display: block;
+}
+
+.salad_image {
+    margin: 0 auto;
+    width: 500px;
+    height: 375px;
+    display: block;
+}
+
+.gelato_image {
+    margin: 0 auto;
+    width: 500px;
+    height: 375px;
+    display: block;
+}
+
 
 
