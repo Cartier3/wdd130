@@ -61,6 +61,19 @@ body {
     padding: 35px ;
 }
 
+.pizza-description, .ravioli-description
+{
+    width: 100%;
+    
+   
+}
+.pizza-description p, .ravioli-description p 
+{
+    padding: 35px;
+    
+   
+}
+
 #chef-image1 {
     margin: 0 auto;
     width: 400px;
@@ -70,35 +83,32 @@ body {
 .home-grid {
     display: grid;
     grid-template-columns:1fr 1fr;
-
+    align-items: center;
+    justify-items: center;
+    grid-gap: 30px;
 }
-
-.pizza_img,.pasta_img {
+.pizza-card, .pasta-card {
+    width: 100%;
+}
+.pizza_img,.pasta_img{
     width: 100%;
     margin: 10px;
-    padding: 75px;
+    padding: 75px; 
 }
 
-.pizza-description {
-    background-color: #F94144;
-    line-height: 1.3em;
-    padding: 35px;
-    box-shadow: 5px 5px 10px #6f7364;
-    margin: 11px;
-}
-
-.ravioli-description {
+.pizza-description, .ravioli-description{
     background-color: #F94144;
     line-height: 1.3em;
     padding: 25px;
-    margin: 25px;
     box-shadow: 5px 5px 10px #6f7364;
-    margin: 11px;
+    width: 90%;
+    margin: 10px;
+    margin-right: 100px;
 }
 
+ 
 .business-hours{
-    text-align: center;
-    margin: 0 auto;
+    grid-column: 1/3;
 }
 
 
@@ -154,6 +164,7 @@ footer .social img{
 
 .note_content {
     padding: 75px;
+    grid-column: 1/3;
     text-align: center;
 }
 
