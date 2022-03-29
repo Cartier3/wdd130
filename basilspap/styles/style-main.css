@@ -214,7 +214,7 @@ footer .social img{
   
 .contact_us {
     display: grid;
-
+    justify-items: center;
 }
 .chef-box_3 img{
     display: block;
@@ -228,7 +228,6 @@ footer .social img{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
     width: 80%;
-    
 }
 
 .insta, .facebook, .twitter{
@@ -238,5 +237,13 @@ footer .social img{
 .insta img, .facebook img, .twitter img {
     padding: 65px;
     width: 50%;
+    height: 142px;
 }
 
+.twitter a{
+    margin-top: 200px;
+}
+
+.social_media a {
+    text-align: center;
+}
