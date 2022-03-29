@@ -206,7 +206,37 @@ footer .social img{
     display: block;
 }
 
+/* Contact Us CSS */
 
-            
+.intro_box {
+    padding: 65px ;
+}
+  
+.contact_us {
+    display: grid;
 
+}
+.chef-box_3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.social_media {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    width: 80%;
+    
+}
+
+.insta, .facebook, .twitter{
+    background-color: white;
+}
+
+.insta img, .facebook img, .twitter img {
+    padding: 65px;
+    width: 50%;
+}
 
